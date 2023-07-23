@@ -1,0 +1,10 @@
+def check_positive_negative(number):
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
+number = float(input("Enter a number: "))
+result = check_positive_negative(number)
+print("The number is:", result)

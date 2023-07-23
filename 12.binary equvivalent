@@ -1,0 +1,7 @@
+def binary_equivalent(number):
+    binary_value = bin(number)
+    return binary_value
+
+input_number = int(input("Enter a number: "))
+binary_value = binary_equivalent(input_number)
+print("Binary equivalent:", binary_value)
